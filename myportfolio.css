@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Sedan:ital@0;1&display=swap');
+
+:root{
+    --primary-color:#156845;
+    --primary-color-dark:#111556;
+    --secondary-color:#a6c43a;
+    --text-dark:#af8433;
+    --text-light:#526458;
+    --extra-light:#865642;
+    --max-width:1200px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.action_btns{
+    display: flex;
+    gap: 1rem;
+}
+
+.action_btns button{
+    font-size: 1rem;
+    font-weight: 600;
+    left: spacing 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border:2px solid var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+}
+
+.hire_me{
+    background-color: var(--primary-color);
+    color:#fff;
+}
+
+.hire_me:hover{
+    background-color: var(--primary-color-dark);
+}
+
+.portfolio{
+    color:var(--primary-color);
+}
+
+.portfolio:hover {
+    background-color: var(--primary-color-dark);
+    color: #fff;
+}
+
+.image{
+    display:grid;
+    place-items:right;
+}
+
+.image img{
+    width: min(15rem,30%);
+    border-radius: 80%;
+}
+
+* {box-sizing: border-box}
+
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .Language {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+.english {width: 90%; background-color: #04AA6D;}
+.hindi{width: 80%; background-color: #2196F3;}
+.marathi {width: 65%; background-color: #f44336;}
+
+

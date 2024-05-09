@@ -1,0 +1,142 @@
+@import url('https://fonts.adobe.com/fonts/alegreya-sans-sc');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+
+}
+
+section{
+ position: relative;
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ background: url(images/download.jpg)no-repeat;
+ background-size:contain;
+ background-position: right;
+ background-color: #3c6070;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: #4b0c0c;
+    font-size: 30px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+ header .navigation{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+   
+}
+
+
+ header .navigation a{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+      }
+      
+
+
+
+ header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+
+  
+
+ header .navigation a:hover{
+    background: #574949;
+}
+
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+
+.content .info h2{
+    color:#7e1047;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+ 
+.content .info h2 span{
+    color:#fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content .info p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.content .info-btn{
+    color: #fff;
+    background: #121555;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.content .info-btn:hover{
+    background: #a16b6b;
+}
+
+.media-icon{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+}
+
+.media-icon a{
+    position: relative;
+    color:#fff;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.media-icon a:not(:last-child){
+    margin-right: 60px;
+}
+
+.media-icon a:hover{
+    transform: scale(1.5);
+}
+
+
+  
